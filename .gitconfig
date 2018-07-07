@@ -1,0 +1,37 @@
+[alias]
+    abr = branch -v -a
+    am = commit -a --amend
+    ca = commit --amend -m
+    cl = !git add -A && git reset --hard
+    cm = !git add -A && git commit -m
+    co = checkout
+    cob = checkout -b
+    dellocal = branch -D
+    delremote = push origin --delete
+    ec = config --global -e
+    fix = !git add -A && git commit --amend --no-edit
+    merf = merge --no-ff
+    pl = pull
+    ps = push
+    st = status --short --branch
+	tree = log --all --graph
+[core]
+	autoclrf = true
+	editor = code --wait
+[diff]
+	guitool = kdiff3
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[log]
+	decorate = auto
+[merge]
+	tool = kdiff3
+[format]
+	pretty = %Cred%h%Creset -%C(yellow)%d%Creset %C(white)%s%Creset %C(yellow)(%cr) %C(bold blue)<%an>%Creset
+[user]
+	name = Foo Bar
+	email = foobar@example.com
+[push]
+	default = simple
