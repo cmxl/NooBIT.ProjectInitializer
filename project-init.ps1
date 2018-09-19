@@ -15,7 +15,7 @@ Push-Location "$projectName"
 ##############################
 
 New-Item -ItemType Directory -Path src
-New-Item -ItemType Directory -Path tests
+New-Item -ItemType Directory -Path test
 New-Item -ItemType Directory -Path samples
 New-Item -ItemType Directory -Path docs
 New-Item -ItemType Directory -Path tools
@@ -47,7 +47,7 @@ dotnet new "$projectType" -n "$projectName"
 ##############################
 
 Pop-Location
-Push-Location tests
+Push-Location test
 
 dotnet new xunit -n "$projectName.Tests"
 
@@ -58,7 +58,7 @@ dotnet new xunit -n "$projectName.Tests"
 Pop-Location
 
 dotnet sln add "src\$projectName\$projectName.csproj"
-dotnet sln add "tests\$projectName.Tests\$projectName.Tests.csproj"
+dotnet sln add "test\$projectName.Tests\$projectName.Tests.csproj"
 
 ##############################
 # init git
