@@ -29,6 +29,12 @@ $file = ".gitignore"
 Invoke-WebRequest -Uri $url -OutFile $file
 
 ##############################
+# create README.md
+##############################
+
+"# $projectName" >> README.md
+
+##############################
 # create solution
 ##############################
 
