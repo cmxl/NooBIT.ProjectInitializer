@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CEBC1DF4-E839-4AF7-BC74-3D5BB7CEB3B0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NooBIT.ProjectInitializer", "src\Automation\NooBIT.ProjectInitializer.csproj", "{5F454C46-9650-4D96-B914-A7171055E5C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NooBIT.ProjectInitializer", "src\NooBIT.ProjectInitializer\NooBIT.ProjectInitializer.csproj", "{5F454C46-9650-4D96-B914-A7171055E5C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{E31ECEE9-7700-49A0-9023-AF01325D9B40}"
 	ProjectSection(SolutionItems) = preProject
