@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Initializer
+namespace NooBIT.ProjectInitializer
 {
     public interface IRunnable
     {

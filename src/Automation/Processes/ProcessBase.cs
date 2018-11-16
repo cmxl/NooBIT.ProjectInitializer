@@ -1,11 +1,11 @@
-﻿using Initializer.Processes;
+﻿using NooBIT.ProjectInitializer.Processes;
 using McMaster.Extensions.CommandLineUtils;
 using System;
 using System.Diagnostics;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Initializer
+namespace NooBIT.ProjectInitializer
 {
     public class ProcessBase : IRunnable
     {

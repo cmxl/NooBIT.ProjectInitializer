@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Initializer.Services
+namespace NooBIT.ProjectInitializer.Services
 {
     public class DirectoryService
     {

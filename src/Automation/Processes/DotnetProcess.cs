@@ -1,7 +1,7 @@
 ﻿using McMaster.Extensions.CommandLineUtils;
 using System.IO;
 
-namespace Initializer
+namespace NooBIT.ProjectInitializer
 {
     public class DotnetProcess : ProcessBase
     {

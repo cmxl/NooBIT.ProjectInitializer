@@ -3,7 +3,7 @@ using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace Initializer.Processes
+namespace NooBIT.ProjectInitializer.Processes
 {
     public static class ProcessExtensions
     {

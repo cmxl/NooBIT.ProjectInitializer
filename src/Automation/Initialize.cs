@@ -1,10 +1,10 @@
-﻿using Initializer.Services;
+﻿using NooBIT.ProjectInitializer.Services;
 using McMaster.Extensions.CommandLineUtils;
 using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Initializer
+namespace NooBIT.ProjectInitializer
 {
     [Command(Name = "dotnet init",
         FullName = "dotnet-init",

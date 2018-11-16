@@ -1,7 +1,7 @@
 ﻿using McMaster.Extensions.CommandLineUtils;
 using System.Threading.Tasks;
 
-namespace Initializer
+namespace NooBIT.ProjectInitializer
 {
     public class Program
     {

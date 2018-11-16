@@ -2,7 +2,7 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace Initializer.Services
+namespace NooBIT.ProjectInitializer.Services
 {
     public class WebService
     {

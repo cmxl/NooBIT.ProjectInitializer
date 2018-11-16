@@ -2,7 +2,7 @@
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Initializer.Services
+namespace NooBIT.ProjectInitializer.Services
 {
     public class ProcessService
     {
