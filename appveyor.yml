@@ -31,6 +31,6 @@ build_script:
   - cmd: dotnet restore
   - cmd: dotnet build NooBIT.ProjectInitializer.sln -c Release /p:DebugType=Full
   - cmd: dotnet pack -c Release --no-build --include-symbols -o ..\..\artifacts /p:PackageVersion=%APPVEYOR_BUILD_VERSION%
-  - cmd: dotnet nuget push artifacts\NooBIT.ProjectInitializer.%APPVEYOR_BUILD_VERSION%.nupkg -k %nuget_token% -s https://www.nuget.org/api/v2/package
+  - cmd: dotnet nuget push artifacts\dotnet-init.%APPVEYOR_BUILD_VERSION%.nupkg -k %nuget_token% -s https://www.nuget.org/api/v2/package
 
 test: off
