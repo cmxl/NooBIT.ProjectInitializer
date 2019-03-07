@@ -38,14 +38,13 @@ namespace NooBIT.ProjectInitializer.Services
         private DirectoryInfo _tools;
         public DirectoryInfo Tools => _tools ?? (_tools = Create(ProjectDirectory, _toolsDirName));
 
-
         public void CreateAll()
         {
-            var src = Src;
-            src = Test;
-            src = Samples;
-            src = Docs;
-            src = Tools;
+            File.Create(Path.Combine(Src.FullName, ".gitkeep"));
+            File.Create(Path.Combine(Test.FullName, ".gitkeep"));
+            File.Create(Path.Combine(Samples.FullName, ".gitkeep"));
+            File.Create(Path.Combine(Docs.FullName, ".gitkeep"));
+            File.Create(Path.Combine(Tools.FullName, ".gitkeep"));
         }
     }
 }
